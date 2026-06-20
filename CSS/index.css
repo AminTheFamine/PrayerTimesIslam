@@ -1,0 +1,32 @@
+@import url('https://googleapis.com');
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: "Arimo", sans-serif;
+}
+
+.Title {
+    margin-top: auto;
+    background-color: rgb(243, 215, 178);
+    width: 100%;
+    text-align: center;
+}
+.MainPrayerTimesContainer {
+    background-color: antiquewhite;
+    display: flex;
+    align-content: flex-start;
+    overflow-y: auto;
+    gap: 25px;
+    width: 100%;
+    max-height: 80vh;
+    flex-wrap: wrap;
+}
+
+.PrayerFrame {
+    margin-left: 15px;
+    background-color: rgb(244, 213, 173);
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 25%;
+    height: 25%;
+}
